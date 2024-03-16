@@ -1,0 +1,9 @@
+.idea
+
+# Crash log files
+crash.log
+
+
+/public
+
+.DS_Store

@@ -1,0 +1,10 @@
+baseURL: https://www.skbali.net/
+languageCode: en-us
+title: Blog by SK Bali
+paginate: 5
+theme: PaperMod
+
+params:
+  homeInfoParams:
+    Title: Hi there
+    Content: "I am SK Bali, a software engineer and a technology enthusiast. I write about software development, cloud computing, and other technology-related topics."
