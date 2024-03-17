@@ -9,6 +9,9 @@ params:
   homeInfoParams:
     Title: Hi there!
     Content: "I am SK Bali, a software engineer and a technology enthusiast. I write about software development, cloud computing, and other technology related topics."
+  defaultTheme: auto
+  ShowToc: true
+  ShowCodeCopyButtons: true
 
 menu:
   main:
@@ -54,4 +57,25 @@ privacy:
     disable: true
   youtube:
     disable: true
+
+markup:
+  tableOfContents:
+    startLevel: 2
+    endLevel: 5
+    ordered: false
+  highlight:
+    anchorLineNos: false
+    codeFences: true
+    guessSyntax: false
+    lineNoStart: 1
+    lineNos: false
+    lineNumbersInTable: true
+    noClasses: false
+    noHl: false
+    style: monokai
+    tabWidth: 4
+
+
+
+
 

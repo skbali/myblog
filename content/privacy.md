@@ -29,6 +29,4 @@ www.skbali.net is not intended for or targeted at children under 16, and does no
 
 ## Changes to this policy
 
-www.skbali.net may change this policy from time to time. If any changes are made to this policy, the date above appear on the page. 
-You are encouraged to review the privacy and cookie policy periodically. 
-You agree that your continued use of this site after such changes have been published to the policy will constitute your acceptance of such revised policy.
+This privacy policy may be updated by www.skbali.net. The last updated date is shown at the top of this page. We recommend you review this policy periodically. By continuing to use this website after any changes are made, you agree to the revised policy.
