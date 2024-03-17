@@ -1,6 +1,7 @@
 +++
 title = 'My First Go Lambda'
 date = 2024-03-15T19:17:52-05:00
+tags = ["aws", "lambda", "go", "terraform"]
 draft = false
 +++
 
