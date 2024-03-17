@@ -8,7 +8,7 @@ enableGitInfo: false
 params:
   homeInfoParams:
     Title: Hi there!
-    Content: "I am SK Bali, a software engineer and a technology enthusiast. I write about software development, cloud computing, and other technology-related topics."
+    Content: "I am SK Bali, a software engineer and a technology enthusiast. I write about software development, cloud computing, and other technology related topics."
 
 menu:
   main:

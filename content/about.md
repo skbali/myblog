@@ -6,7 +6,7 @@ lastmod: 2024-03-15T19:17:52-05:00
 ---
 
 ##
-Hey there!, I am SK Bali, a software engineer and a technology enthusiast. I write about software development, cloud computing, and other technology-related topics.
+Hey there!, I am SK Bali, a software engineer and a technology enthusiast. I write about software development, cloud computing, and other technology related topics.
 
 ## My Interests
 - I am interested in cloud computing, serverless, and microservices. 
