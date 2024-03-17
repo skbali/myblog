@@ -3,8 +3,55 @@ languageCode: en-us
 title: Blog by SK Bali
 paginate: 5
 theme: PaperMod
+enableGitInfo: false
 
 params:
   homeInfoParams:
-    Title: Hi there
+    Title: Hi there!
     Content: "I am SK Bali, a software engineer and a technology enthusiast. I write about software development, cloud computing, and other technology-related topics."
+
+menu:
+  main:
+    - identifier: home
+      name: Home
+      url: /
+      weight: 1
+    - identifier: posts
+      name: Posts
+      url: /posts/
+      weight: 2
+    - identifier: tags
+      name: Tags
+      url: /tags/
+      weight: 3
+    - identifier: about
+      name: About
+      url: /about/
+      weight: 4
+    - identifier: links
+      name: Links
+      url: /links/
+      weight: 5
+    - identifier: privacy
+      name: Privacy
+      url: /privacy/
+      weight: 6
+
+taxonomies:
+    tag: tags
+    category: categories
+
+privacy:
+  disqus:
+    disable: true
+  googleAnalytics:
+    disable: true
+  instagram:
+    disable: true
+  twitter:
+    disable: true
+  vimeo:
+    disable: true
+  youtube:
+    disable: true
+
