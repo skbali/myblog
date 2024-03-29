@@ -20,7 +20,6 @@ I decided to deploy a Lambda Function which can use instance tags to determine i
 The function will notify by sending an email when it detects that an instance has been selected to be stopped
 
 ## Prerequisites
-
 Make sure you have installed the [Serverless Framework](https://serverless.com/framework/docs/) on your workstation.
 
 Ensure that the workstation from where you are going to run the serverless framework has all the necessary permissions to publish your Lambda function. 
@@ -31,7 +30,6 @@ We need a SNS Topic which I have shown how to set up below.
 ## Procedure
 
 ### SNS
-
 Let us go ahead and create a SNS topic with an email subscription first.
 
 Run these two commands from your linux shell.
@@ -52,7 +50,6 @@ Once you run these commands, you will receive an email as shown below.
 
 
 ### Lambda Function
-
 Now it is time for us to set up our Lambda function using the Serverless Framework.
 
 To create the template for our function, I run the commands as shown below.
@@ -79,7 +76,6 @@ Let's walk through the `handler.py` file.
 Following is a brief description and workflow of the function, without going into too much detail.
 
 ### Method check_and_stop_ec2
-
 The method starts by making a describe instances call to find all running instances that contain a tag AllowStop.
 
 A for loop will loop through all the instances returned in the response object.
@@ -91,7 +87,6 @@ If the value is greater than the max_hours specified then it is replaced.
 If the value is  0 or less than 0, I am changing the threshold value to a low number so that the instance can be shutdown right away.
 
 ### serverless.yml
-
 Let us take a look at the `serverless.yml` file now.
 
 Few important edits in this file.
@@ -110,7 +105,6 @@ The events section in the file specifies that this function should run every 5 m
 Serverless will take care of setting up the Event and its frequency to invoke your function accordingly.
 
 ### Deployment
-
 It is now time to deploy our function. The deployment can be done by running the command sls deploy as shown below:
 ```bash
 sls deploy
