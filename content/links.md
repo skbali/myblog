@@ -18,12 +18,7 @@ I used ACloud Guru and Udemy to study for AWS Certification exams. Both the site
 
 - https://acloud.guru/
 - https://www.udemy.com/
-
-### Others
-I have been a member of [O'Reilly](https://www.oreilly.com/member/login/) for many years now. 
-
-I find it easier to read books online or by making use of the app provided by them instead of buying books. 
-The ability to read any title in their collection at any time is an added bonus. I still buy kindle versions of some books that I like to keep in my collection.
+- https://www.oreilly.com/
 
 ### Amateur Radio
 I am a Technician Class Amateur Radio Operator. I get my Radio news and events related to [ARRL](https://www.arrl.org/home/).

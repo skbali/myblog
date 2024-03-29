@@ -1,12 +1,12 @@
 ---
 title: "Privacy"
-Description: "Privacy policy for www.skbali.net"
+Description: "Privacy policy for skbali.dev"
 layout: "privacy"
 lastmod: 2024-03-15T19:17:52-05:00
 ---
 
 ## Log Files
-Like many other websites, www.skbali.net makes use of log files. 
+Like many other websites, skbali.dev makes use of log files. 
 These log files include internet protocol (IP) addresses, type of browser, date/time stamp, referring pages, the pages you visit on this site.
 
 ## Embedded content from other websites
@@ -21,12 +21,12 @@ Our website pages may include social media features, such as Facebook and Twitte
 
 ## External Websites
 
-www.skbali.net provides links to other websites. However, this site does not control, and is not responsible for, the content or practices of these other websites. Provision of such links does not constitute an endorsement of these other websites, their content, their owners, or their practices. This Privacy Policy does not apply to these other websites, which are subject to any privacy and other policies they may have.
+skbali.dev provides links to other websites. However, this site does not control, and is not responsible for, the content or practices of these other websites. Provision of such links does not constitute an endorsement of these other websites, their content, their owners, or their practices. This Privacy Policy does not apply to these other websites, which are subject to any privacy and other policies they may have.
 
 ## Information about children
 
-www.skbali.net is not intended for or targeted at children under 16, and does not knowingly or intentionally collect information about children under 16.
+skbali.dev is not intended for or targeted at children under 16, and does not knowingly or intentionally collect information about children under 16.
 
 ## Changes to this policy
 
-This privacy policy may be updated by www.skbali.net. The last updated date is shown at the top of this page. We recommend you review this policy periodically. By continuing to use this website after any changes are made, you agree to the revised policy.
+This privacy policy may be updated by skbali.dev. The last updated date is shown at the top of this page. We recommend you review this policy periodically. By continuing to use this website after any changes are made, you agree to the revised policy.

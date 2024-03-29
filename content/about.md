@@ -2,7 +2,7 @@
 title: "About Me"
 layout: "about"
 date: 2024-03-15T19:17:52-05:00
-lastmod: 2024-03-15T19:17:52-05:00
+lastmod: 2024-03-23T19:17:52-05:00
 ---
 
 ##
@@ -19,8 +19,13 @@ Hey there!, I am SK Bali, a software engineer and a technology enthusiast. I wri
 - I am also a Technician class Amateur Radio operator.
 
 ## Facts
-This site is built using [Hugo](https://gohugo.io/), a static site generator.  
-The site is deployed on CloudFront and S3.
+- This site is built using [Hugo](https://gohugo.io/), a static site generator.  
+- Site is using CloudFront and S3 which were setup using Terraform.
+
+## Site Migration
+My original blog was hosted on [blog.skbali.com](https://blog.skbali.com/) using AWS Lightsail, bitnami WordPress. 
+
+I am in the process of migrating over content to Hugo. 
 
 ## Disclaimers
 
@@ -30,4 +35,4 @@ The blog owner is not liable for any losses you incur from using this informatio
 
 ## Review Policy
 
-Please do review this the [Privacy Policy](/privacy) for this website (blog.skbali.com)
+Please do review this the [Privacy Policy](/privacy) for this website (skbali.dev)

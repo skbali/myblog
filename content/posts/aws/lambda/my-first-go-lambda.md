@@ -1,12 +1,12 @@
 +++
-title = 'My First Go Lambda'
-date = 2024-03-15T19:17:52-05:00
+title = "My First Go Lambda"
+summary = "Deploying my first go Lambda function using Terraform"
+date = 2022-06-19T14:26:00Z   
 tags = ["aws", "lambda", "go", "terraform"]
+canonicalURL = "https://blog.skbali.com/2022/06/my-first-go-lambda-function/"
+ShowReadingTime = true
 draft = false
 +++
-
-
-## Background
 
 Python is an easy-to-read language and has great support and libraries in the developer community. Most of my AWS Lambda functions are written in Python.
 
@@ -21,22 +21,20 @@ All my previous post have been using Serverless, which I love to use for persona
 As I get more comfortable with Go, I might convert my other Python Lambda functions to Go to get a better grasp of the language
 
 ## Prerequisites
-
 I do most of my work on my Ubuntu workstation and have setup a local AWS profile to access my AWS account. Ensure you have an AWS account and configured your credentials to access AWS.
 
-Download and Install [Terraform](https://www.terraform.io/downloads).
+Configure your AWS Provider in `main.tf` by either creating a profile or using AWS credentials. See AWS credentials. [See Access](https://www.terraform.io/docs/providers/aws/index.html/).
 
-I have already configured an AWS profile called `automation`. You can either create a profile or assume a role or simply modify the `provider.tf` file and add your AWS credentials. [See Access](https://www.terraform.io/docs/providers/aws/index.html/).
+Download and Install [Terraform](https://www.terraform.io/downloads).
 
 Install [Go](https://go.dev/doc/install) on your workstation.
 
 ## Procedure
-
 There are two steps involved in publishing your Lambda function
 
 - Compiling your Go code into a binary
 
-- Deploying the binary using Terraform
+- Deploying a lambda function via Terraform that uses the binary created in the first step.  
 
 **Note:** Running this demo will incur some cost on AWS. You are responsible for all charges incurred in your account. You can lower your cost by cleaning up and removing all resources after you are done.
 
@@ -49,9 +47,7 @@ If you are new to Go, checkout some of the [Go Tutorials](https://go.dev/doc/tut
 
 This is my first attempt at Go, I may not have followed all the Go rules, formatting, error handling correctly. As I learn more, I will surely update my code and this post.
 
-
 ### main.go
-
 The init function is where the EC2 client is configured to run in `us-east-1`.
 
 ```go
@@ -97,7 +93,8 @@ Then loop through the result to print the EC2 instance information.
 	}
 ```
 
-cd into the `project root` folder and compile the code by running 
+### Building the binary
+cd into the `running-ec2/code` folder and compile the code by running 
 
 ```bash
   GOARCH=amd64 GOOS=linux go build -tags lambda.norpc -o bootstrap main.go
@@ -107,11 +104,9 @@ which should create a binary bootstrap.
 cd back to the `project root` folder.
 
 ## Terraform
-
 Now that we have created the binary for our AWS Lambda function, we can move on to the Terraform steps.
 
 ### main.tf
-
 In this file, we create a zip archive with our go binary.
 
 The resource `aws_lambda_function` creates our AWS Lambda function with the zip file as its source and other settings to indicate the runtime is go.
@@ -121,16 +116,14 @@ I also create a Cloudwatch Event rule to run the function every 30 min.
 The resource `aws_lambda_permission` sets up Events to invoke our AWS Lambda function.
 
 ### iam.tf
-
 In this file, we add permission for Lambda to work with CloudWatch logs and the ability to Describe Instances.
 
 ### versions.tf
-
 Used to set my provider versions.
 
-### Init, plan and apply
+### Deployment
 
-Go ahead and run a Terraform Init next.
+Go ahead and run a Terraform init next.
 
 Followed by a Terraform plan. If the plan is good, you can go ahead and run an apply, which will create the AWS resources.
 
@@ -148,14 +141,14 @@ aws lambda invoke --function-name arn:aws:lambda:us-east-1:0123456789012:functio
 ["InstanceID: i-0777e6b054614xxxx State: running"]
 ```
 
-### Summary
-
+## Summary
 Using Terraform, it was quite easy to deploy the Lambda function using Go runtime.
 
 Do not forget to run `terraform destroy` to remove all the resources that were created. Leaving resources in your account will incur cost.
 
-## Further Reading
+Let me know if you have any questions or suggestions by leaving a comment on the `github repository` linked above.
 
+## Further Reading
 - [Terraform Docs](https://developer.hashicorp.com/terraform/docs)
 - [Terraform Access](https://www.terraform.io/docs/providers/aws/index.html)
 - [AWS IAM](https://docs.aws.amazon.com/IAM/latest/UserGuide/introduction.html)
