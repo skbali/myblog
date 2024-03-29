@@ -5,7 +5,7 @@ date = 2018-12-15T04:45:00Z
 tags = ["aws", "cli", "CloudWatch Logs"]
 canonicalURL = "https://blog.skbali.com/2022/06/my-first-go-lambda-function/"
 ShowReadingTime = true
-draft = true
+draft = false
 +++
 
 Amazon provides us with CloudWatch logs to monitor, store and access log from various AWS services like, EC2 instances, Route 53, RDS, AWS CloudTrail, AWS VPC Flow Logs, Lambda and many others.
