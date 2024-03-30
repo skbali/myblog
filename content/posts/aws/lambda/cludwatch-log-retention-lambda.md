@@ -1,5 +1,5 @@
 +++
-title = "Stop Long Running EC2 Instances"
+title = "Set Retention for CloudWatch Logs using a Lambda Function"
 summary = "Lambda function to set a retention period for CloudWatch logs"
 date = 2020-06-15T10:57:00Z   
 tags = ["aws", "lambda", "python", "serverless", "EventBridge", "CLI", "CloudWatch Logs"]
