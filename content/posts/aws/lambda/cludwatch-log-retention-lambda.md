@@ -5,7 +5,7 @@ date = 2020-06-15T10:57:00Z
 tags = ["aws", "lambda", "python", "serverless", "EventBridge", "CLI", "CloudWatch Logs"]
 canonicalURL = "https://blog.skbali.com/2020/06/set-retention-for-cloudwatch-logs-using-a-lambda-function/"
 ShowReadingTime = true
-draft = true
+draft = false
 +++
 
 In one of my earlier post, I demonstrated how one could set retention for [CloudWatch Logs using CLI](/posts/aws/cli/set-cloudwatch-log-retention) command that could be run from cron or a CI/CD server like Jenkins.
@@ -102,7 +102,7 @@ If you make any changes to either of the two files, you can simply run `sls depl
 You can either wait for the CloudWatch Events rule to trigger your function, or you can go to the Lambda console and create a test event to manually run your function
 
 The following image shows that the function ran and set the log retention period for log groups which did not have any retention period.
-![CloudWatch Logs](/aws/lambda/cwl-logs.jpg)
+![CloudWatch Logs](/aws/lambda/cwl-logs-lambda.jpg)
 
 ### Remove Resources
 If you no longer wish to keep this function, you can remove the resources that were created by running this command.
