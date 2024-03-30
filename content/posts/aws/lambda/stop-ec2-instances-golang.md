@@ -159,7 +159,7 @@ terraform destroy
 This will remove all the resources that were created. Remember you are responsible for all charges incurred. 
 Leaving a Lambda function with a CloudWatch Event rule enabled, will cost you even if there are no servers to terminate.
 
-You may also have to clean up your CloudWatch Logs and S3 buckets where this code was deployed.
+You may also have to clean up your CloudWatch Logs.
 
 ## Improvements
 Review exception handling, adding comments etc. to make it more meaningful for you.
