@@ -97,7 +97,9 @@ The string messages returned from the checkInstance function are sent to the SNS
 cd into the `stop_ec2/code` folder and compile the code by running
 
 ```bash
-  GOARCH=amd64 GOOS=linux go build -tags lambda.norpc -o bootstrap main.go
+  GOARCH=arm64 GOOS=linux go build -tags lambda.norpc -o build/bootstrap main.go
+  OR if you are want an x86_64 lambda function
+  GOARCH=amd64 GOOS=linux go build -tags lambda.norpc -o build/bootstrap main.go
 ```
 which should create a binary bootstrap.
 

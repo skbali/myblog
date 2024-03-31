@@ -78,7 +78,9 @@ In the above code I am only looking for log groups that are created by Lambda fu
 cd into the `cwl/code` folder and compile the code by running
 
 ```bash
-  GOARCH=amd64 GOOS=linux go build -tags lambda.norpc -o bootstrap main.go
+  GOARCH=arm64 GOOS=linux go build -tags lambda.norpc -o build/bootstrap main.go
+  OR if you are want an x86_64 lambda function
+  GOARCH=amd64 GOOS=linux go build -tags lambda.norpc -o build/bootstrap main.go
 ```
 which should create a binary bootstrap.
 
