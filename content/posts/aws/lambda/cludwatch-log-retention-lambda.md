@@ -63,7 +63,7 @@ Here you will see two files `serverless.yml` and `handler.py`, I am going to upd
 
 The file `serverless.yml` contains information about our Lambda function and the IAM role that will be needed by the function.
 
-Let us take a look at the `serverless.yml` file now.
+Let's take a look at the `serverless.yml` file now.
 
 ### Provider Section
 - The Cloud Provider and runtime

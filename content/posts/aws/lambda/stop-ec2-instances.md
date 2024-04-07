@@ -30,7 +30,7 @@ We need a SNS Topic which I have shown how to set up below.
 ## Procedure
 
 ### SNS
-Let us go ahead and create a SNS topic with an email subscription first.
+Let's go ahead and create a SNS topic with an email subscription first.
 
 Run these two commands from your linux shell.
 
@@ -87,7 +87,7 @@ If the value is greater than the max_hours specified then it is replaced.
 If the value is  0 or less than 0, I am changing the threshold value to a low number so that the instance can be shutdown right away.
 
 ### serverless.yml
-Let us take a look at the `serverless.yml` file now.
+Let's take a look at the `serverless.yml` file now.
 
 Few important edits in this file.
 

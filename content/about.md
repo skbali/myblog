@@ -20,7 +20,7 @@ Hey there!, I am SK Bali, a software engineer and a technology enthusiast. I wri
 
 ## Facts
 - This site is built using [Hugo](https://gohugo.io/), a static site generator.  
-- Site is using CloudFront and S3 which were setup using Terraform.
+- Site is served using CloudFront and S3 which were set up using Terraform.
 
 ## Site Migration
 My original blog was hosted on [blog.skbali.com](https://blog.skbali.com/) using AWS Lightsail, bitnami WordPress. 
