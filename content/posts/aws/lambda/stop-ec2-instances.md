@@ -3,7 +3,6 @@ title = "Stop Long Running EC2 Instances"
 summary = "Lambda function to stop long running ec2 instances"
 date = 2021-12-25T20:11:00Z   
 tags = ["aws", "lambda", "python", "serverless", "sns", "Notification", "EventBridge", "CLI", "ec2"]
-canonicalURL = "https://blog.skbali.com/2021/12/lambda-function-to-stop-long-running-ec2-instances/"
 ShowReadingTime = true
 draft = false
 +++

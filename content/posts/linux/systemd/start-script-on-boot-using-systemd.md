@@ -3,7 +3,6 @@ title = "Start script on boot using systemd"
 summary = "Start a script on boot using systemd on Ubuntu"
 date = 2019-03-02T20:54:00Z   
 tags = ["linux", "script", "systemd"]
-canonicalURL = "https://blog.skbali.com/2019/03/start-a-script-on-boot-using-systemd/"
 ShowReadingTime = true
 draft = false
 +++

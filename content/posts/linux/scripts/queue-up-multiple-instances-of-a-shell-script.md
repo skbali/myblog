@@ -3,7 +3,6 @@ title = "Queue up multiple instances of a shell script"
 summary = "How to queue up multiple instances of the same shell script on linux server"
 date = 2019-03-09T17:54:00Z   
 tags = ["linux", "script", "syslog", "flock", "queue", "shell"]
-canonicalURL = "https://blog.skbali.com/2019/03/queue-up-multiple-instances-of-a-shell-script/"
 ShowReadingTime = true
 draft = false
 +++

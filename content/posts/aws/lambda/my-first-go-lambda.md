@@ -3,7 +3,6 @@ title = "My First Go Lambda"
 summary = "Deploying my first go Lambda function using Terraform"
 date = 2022-06-19T14:26:00Z   
 tags = ["aws", "lambda", "go", "terraform"]
-canonicalURL = "https://blog.skbali.com/2022/06/my-first-go-lambda-function/"
 ShowReadingTime = true
 draft = false
 +++

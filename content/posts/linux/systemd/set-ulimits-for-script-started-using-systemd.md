@@ -3,7 +3,6 @@ title = "Set ulimits for script started using systemd"
 summary = "How to set ulimits for a script started using systemd"
 date = 2019-09-24T15:50:00Z   
 tags = ["linux", "script", "syslog", "flock", "queue", "shell"]
-canonicalURL = "https://blog.skbali.com/2019/09/set-ulimits-for-a-script-started-using-systemd/"
 ShowReadingTime = true
 draft = false
 +++

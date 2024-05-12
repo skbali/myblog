@@ -3,7 +3,6 @@ title = "monitor network connections on linux"
 summary = "How to monitor network connections on linux server using ss command"
 date = 2019-02-05T17:54:00Z   
 tags = ["linux", "network", "monitor"]
-canonicalURL = "https://blog.skbali.com/2019/02/ss-command-to-monitor-network-connections-on-linux/"
 ShowReadingTime = true
 draft = false
 +++
@@ -14,7 +13,7 @@ draft = false
 
 In this post, I am going to review some of the most common options used with ss to monitor network connections.
 
-## Command Options`
+## Command Options
 
 
 ### 1 No options

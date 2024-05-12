@@ -4,6 +4,7 @@ title: Blog by SK Bali
 paginate: 5
 theme: PaperMod
 enableGitInfo: false
+enableRobotsTXT: true
 
 params:
   env: dev

@@ -3,10 +3,11 @@ title = "Find un-tagged AWS resources"
 summary = "Find AWS resources that are not tagged"
 date = 2019-02-15T14:16:00Z   
 tags = ["aws", "tags", "python"]
-canonicalURL = "https://blog.skbali.com/2019/02/find-aws-resources-with-missing-tags/"
 ShowReadingTime = true
 draft = false
 +++
+
+**See my recent post accomplishing the same [task using a lambda function](/posts/aws/lambda/un-tagged-aws-resources/)**
 
 Everyone who works with AWS resources at some point of time is asked how much is the spend for a project and in a traditional server environment, the cost of EC2, EBS, and snapshots make up a good part of the bill.
 

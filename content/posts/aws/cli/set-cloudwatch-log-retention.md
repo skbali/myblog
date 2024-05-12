@@ -3,7 +3,6 @@ title = "Set Retention For CloudWatch Logs - CLI"
 summary = "Set a retention period for CloudWatch logs using AWS cli"
 date = 2018-12-15T04:45:00Z   
 tags = ["aws", "cli", "CloudWatch Logs"]
-canonicalURL = "https://blog.skbali.com/2022/06/my-first-go-lambda-function/"
 ShowReadingTime = true
 draft = false
 +++

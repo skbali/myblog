@@ -3,7 +3,6 @@ title = "Set Retention for CloudWatch Logs using a Lambda Function"
 summary = "Lambda function to set a retention period for CloudWatch logs"
 date = 2020-06-15T10:57:00Z   
 tags = ["aws", "lambda", "python", "serverless", "EventBridge", "CLI", "CloudWatch Logs"]
-canonicalURL = "https://blog.skbali.com/2020/06/set-retention-for-cloudwatch-logs-using-a-lambda-function/"
 ShowReadingTime = true
 draft = false
 +++
