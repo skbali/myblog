@@ -1,7 +1,7 @@
 baseURL: https://skbali.dev/
 languageCode: en-us
 title: Blog by SK Bali
-paginate: 5
+#paginate: 5
 theme: PaperMod
 enableGitInfo: false
 enableRobotsTXT: true
@@ -53,7 +53,7 @@ privacy:
     disable: true
   instagram:
     disable: true
-  twitter:
+  x:
     disable: true
   vimeo:
     disable: true
