@@ -143,7 +143,7 @@ Basic filter usage as shown in the help is like this:
                 big := {established|syn-sent|fin-wait-{1,2}|closed|close-wait|last-ack|listening|closing}
 ```
 
-some valida filter examples are:
+some valid filter examples are:
 ```bash
 ss -tn state connected
 State              Recv-Q         Send-Q                             Local Address:Port                               Peer Address:Port          Process

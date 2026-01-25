@@ -14,9 +14,10 @@ lastmod: 2024-03-15T19:17:52-05:00
 
 - https://aws.amazon.com/blogs/aws/
 
-I used ACloud Guru and Udemy to study for AWS Certification exams. Both the sites had good material to help prepare for the exam. In the end I think having hands on experience does make a huge difference. 
+I used ACloud Guru, now part of Pluralsight, and Udemy to study for AWS Certification exams. Both the sites had good material to help prepare for the exam. 
+In the end, I think having hands-on experience does make a huge difference.
 
-- https://acloud.guru/
+- https://www.pluralsight.com/cloud-guru
 - https://www.udemy.com/
 - https://www.oreilly.com/
 
