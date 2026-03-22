@@ -22,11 +22,6 @@ Hey there!, I am SK Bali, a software engineer and a technology enthusiast. I wri
 - This site is built using [Hugo](https://gohugo.io/), a static site generator.  
 - Site is served using CloudFront and S3 which were set up using Terraform.
 
-## Site Migration
-My original blog was hosted on [blog.skbali.com](https://blog.skbali.com/) using AWS Lightsail, bitnami WordPress. 
-
-I am in the process of migrating over content to Hugo. 
-
 ## Disclaimers
 
 This blog provides information for your reference only. Most code is for demonstration purposes and may not be perfect. You're responsible for researching and adapting the information to your needs. Posts may be outdated and contain broken links. Verify information before using it.
@@ -35,4 +30,4 @@ The blog owner is not liable for any losses you incur from using this informatio
 
 ## Review Policy
 
-Please do review this the [Privacy Policy](/privacy) for this website (skbali.dev)
+Please do review this the [Privacy Policy](/privacy) for this site.

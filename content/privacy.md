@@ -2,22 +2,18 @@
 title: "Privacy"
 Description: "Privacy policy for skbali.dev"
 layout: "privacy"
-lastmod: 2024-03-15T19:17:52-05:00
+lastmod: 2026-03-22T00:00:00-05:00
 ---
 
-## Log Files
-Like many other websites, skbali.dev makes use of log files. 
-These log files include internet protocol (IP) addresses, type of browser, date/time stamp, referring pages, the pages you visit on this site.
+## Hosting
+
+This website is hosted on [GitHub Pages](https://pages.github.com/). GitHub may collect visitor IP addresses and basic request data for security and operational purposes. This is governed by [GitHub's Privacy Statement](https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement).
 
 ## Embedded content from other websites
 
 Articles on this site may include embedded content (e.g. videos, images, articles, etc.). 
 Embedded content from other websites behaves in the exact same way as if the visitor has visited the other website. 
 These websites may collect data about you, use cookies, embed additional third-party tracking, and monitor your interaction with that embedded content, including tracking your interaction with the embedded content if you have an account and are logged in to that website.
-
-## Social Media Widgets
-
-Our website pages may include social media features, such as Facebook and Twitter. These features may collect your internet protocol (IP) address, which page you are visiting on our website, and may set a cookie to enable the feature to function properly. Social media features and widgets are either hosted by a third party or hosted directly on our website. Your interactions with these features are governed by the privacy policy of the company providing it.
 
 ## External Websites
 
@@ -29,4 +25,4 @@ skbali.dev is not intended for or targeted at children under 16, and does not kn
 
 ## Changes to this policy
 
-This privacy policy may be updated by skbali.dev. The last updated date is shown at the top of this page. We recommend you review this policy periodically. By continuing to use this website after any changes are made, you agree to the revised policy.
+This privacy policy may be updated from time to time. The last updated date is shown at the top of this page. We recommend you review this policy periodically. By continuing to use this website after any changes are made, you agree to the revised policy.
