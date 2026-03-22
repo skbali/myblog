@@ -1,6 +1,6 @@
 # Note: GitHub Actions will automatically set the correct baseURL during deployment
 # This URL is used for local development
-baseURL: https://skbali.dev/
+baseURL: https://localhost:1313/
 languageCode: en-us
 title: Blog by SK Bali
 #paginate: 5

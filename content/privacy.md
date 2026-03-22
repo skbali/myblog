@@ -1,6 +1,6 @@
 ---
 title: "Privacy"
-Description: "Privacy policy for skbali.dev"
+Description: "Privacy policy"
 layout: "privacy"
 lastmod: 2026-03-22T00:00:00-05:00
 ---
@@ -17,11 +17,11 @@ These websites may collect data about you, use cookies, embed additional third-p
 
 ## External Websites
 
-skbali.dev provides links to other websites. However, this site does not control, and is not responsible for, the content or practices of these other websites. Provision of such links does not constitute an endorsement of these other websites, their content, their owners, or their practices. This Privacy Policy does not apply to these other websites, which are subject to any privacy and other policies they may have.
+This site provides links to other websites. However, this site does not control, and is not responsible for, the content or practices of these other websites. Provision of such links does not constitute an endorsement of these other websites, their content, their owners, or their practices. This Privacy Policy does not apply to these other websites, which are subject to any privacy and other policies they may have.
 
 ## Information about children
 
-skbali.dev is not intended for or targeted at children under 16, and does not knowingly or intentionally collect information about children under 16.
+This siteis not intended for or targeted at children under 16, and does not knowingly or intentionally collect information about children under 16.
 
 ## Changes to this policy
 
